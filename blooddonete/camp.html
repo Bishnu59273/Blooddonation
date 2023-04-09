@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cs1.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>I-Doner- Save life,Drop By Drop</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">I-Donor</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Need Blood
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Blood Availability</a>
+                            <a class="dropdown-item" href="#">Blood Bank Directory</a>
+                            <a class="dropdown-item" href="#">Blood Donation Camps</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Write Us Something</a>
+                            <a class="dropdown-item" href="#">Support</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+
+
+                </ul>
+                <div class="mx-2">
+                    <button class="btn btn-danger" data-toggle="modal" data-target="#LoginModal">Donor Login</button>
+                    <a class="btn btn-success" href="camp.html" role="button">Camp Registration</a>
+            
+                </div>
+            </div>
+            </nav>
+            <!-- Login Modal -->
+            <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="LoginModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LoginModalLabel">Welcom Donor</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Log In</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+    </nav>
+    <center>
+
+        <div id="jm1">
+
+            <h1>Camp Registration</h1>
+
+            <div id="ro1">
+
+                <span id="sh1">
+
+                    <form>
+                        <label class="text1">OrgnizationType:<Typr:>*</Typr:></label> <br>
+                        <!-- <input type="text" class="fname" name="fname">  -->
+                        <select name="OrgnizationType" onchange="setTypName()" class="fname">
+                            <option>Select</option>
+                            <option>A</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>O</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                            <option>AB+</option>
+
+                        </select>
+
+                    </form>
+
+
+
+
+
+                    <form>
+                        <label class="text1">Orgnization Name:</label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+
+
+
+                    <form>
+                        <label class="text1">Orgnization Email:<ID:>*</ID:></label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+                    <form>
+                        <label class="text1">Co-Orgnization Name:</label><br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+                    <form>
+                        <label class="text1">Camp Name:</label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+
+                    <!-- <form>
+                    <label class="text1" INPUT TYPE="TEXT">State:*</label> <br>
+
+                    <select class="fname">
+                        <option>Select State</option>
+                        <option>ANDHRA PRADESH</option>
+                        <option>ARUNACHAL PRADESH</option>
+                        <option>ASSAM</option>
+                        <option>BIHAR</option>
+                        <option>CHATTISGARH</option>
+                        <option>GOA</option>
+                        <option>GUJARAT</option>
+                        <option>HARYANA</option>
+                        <option></option>
+                        <option></option>
+                        <option></option>
+
+                    </select>
+
+                </form> -->
+
+
+
+
+
+                    <form>
+                        <label class="text1">City Name:*</label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+                    <form>
+                        <label class="text1">Camp Propose Date<Date:></Date:></label> <br>
+                        <input type="date" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+
+                    <!--  <form>
+                    <label class="text1">Latitude:</label> <br>
+                    <input type="text" class="fname" name="fname">
+
+                </form> -->
+
+
+
+
+
+                    <form>
+                        <label class="text1">Estimated Participants:*</label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+
+                    <form>
+                        <label class="text1">Remarks:</label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+                </span>
+
+                <span id="ar1">
+
+                    <form>
+                        <label class="text1">Orgnization Name:<Typr:>*</Typr:></label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+
+                    <form>
+                        <label class="text1">Orgnization Mobile <NO:>*</NO:></label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+
+
+                    <form>
+                        <label class="text1">Co-Organizer Mobile:</Co-Organizer>:<ID:>*</ID:></label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+                    <form>
+                        <label class="text1">Camp Addres:*</label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+
+
+                    <form>
+                        <label class="text1" input type="text">District:*</label> <br>
+
+                        <select class="fname">
+                            <option>Select district</option>
+                            <option>DARJEELING</option>
+                            <option>JALPAIGURI</option>
+                            <option>SOUTH DINAJPUR</option>
+                            <option>NORTH DINAJPUR</option>
+                            <option>MALDHA</option>
+                            <option>NADIA</option>
+                            <option>KOLKATA</option>
+                            <option>HOWRAH</option>
+                        </select>
+
+
+                    </form>
+
+
+
+
+
+
+                    <form>
+                        <label class="text1" input typr="text">BloodBank:*</label> <br>
+
+                        <select class="fname">
+                            <option>select bloodBank</option>
+                            <option>KALIYAGANJ</option>
+                            <option>RAIGANJ</option>
+                            <option>MALDHA</option>
+                            <option>KOLKATA</option>
+
+                        </select>
+
+                    </form>
+
+
+
+
+                    <form>
+                        <label class="text1">Start Time(24HH:MM):<br>*End Time:(24HH:MM):*</label> <br>
+                        <input type="time" class="fname" name="fname">
+                        <!-- <input type="time" class="fname" name="fname">  -->
+
+
+                    </form>
+
+
+
+
+                    <form>
+                        <label class="text1">Camp Propose Date<Date:></Date:></label> <br>
+                        <input type="date" class="fname" name="fname">
+
+                    </form>
+
+
+
+                    <!--   <form>
+                    <label class="text1">Latitude:</label> <br>
+                    <input type="text" class="fname" name="fname">
+
+                </form> -->
+
+
+
+
+
+                    <form>
+                        <label class="text1">Refence/Camp Supporter(Prayojak):*</label> <br>
+                        <input type="text" class="fname" name="fname">
+
+                    </form>
+
+
+            </div>
+
+
+            <button id="b1" type="submit">submit</button>
+            <button id="b2" type="button">cancel</button>
+        </div>
+
+
+    </center>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="#">Add your Blood Bank</a></li>
+                        <li><a href="contact-us.html">conact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Want to Donate Blood</h4>
+                    <ul>
+                        <li><a href="#">Blood Donation Camps</a></li>
+                        <li><a href="#">Donor Login</a></li>
+                        <li><a href="camp.html">Register Camp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Looking for Blood</h4>
+                    <ul>
+                        <li><a href="#">Blood Availability</a></li>
+                        <li><a href="#">Blood Bank Directory</a></li>
+                        <li><a href="#">Thalassemia Request</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
